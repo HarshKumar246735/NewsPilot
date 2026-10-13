@@ -1,0 +1,30 @@
+/* NewsPilot design tokens. Accent is "Compass Blue", chosen to read as navigation + trust. */
+:root {
+  --np-paper: #fbfbf9;        /* page background */
+  --np-surface: #ffffff;      /* cards, inputs */
+  --np-ink: #1a1c20;          /* body text */
+  --np-ink-soft: #4a4f57;     /* secondary text (AA on paper) */
+  --np-rule: #e3e4e0;         /* borders and dividers */
+  --np-accent: #1b44c8;       /* links, category badges, focus */
+  --np-accent-ink: #ffffff;
+  --np-alert: #b3261e;        /* BREAKING label only */
+
+  --np-font-ui: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --np-font-head: "Source Serif 4", Georgia, "Times New Roman", serif;
+
+  --np-step--1: clamp(0.8rem, 0.78rem + 0.1vw, 0.875rem);
+  --np-step-0: clamp(1rem, 0.97rem + 0.15vw, 1.0625rem);
+  --np-step-1: clamp(1.2rem, 1.1rem + 0.5vw, 1.45rem);
+  --np-step-2: clamp(1.5rem, 1.3rem + 1vw, 2.1rem);
+  --np-step-3: clamp(2rem, 1.6rem + 2vw, 3.2rem);
+
+  --np-space-1: 0.25rem; --np-space-2: 0.5rem; --np-space-3: 0.75rem;
+  --np-space-4: 1rem; --np-space-6: 1.5rem; --np-space-8: 2rem; --np-space-12: 3rem;
+  --np-radius: 4px;           /* deliberately small; hierarchy comes from type, not bubbles */
+  --np-measure: 68ch;         /* article line length */
+  --np-container: 1240px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --np-paper:#121316; --np-surface:#1a1c20; --np-ink:#ecece8; --np-ink-soft:#a9adb4; --np-rule:#2c2f35; --np-accent:#7b9bff; --np-accent-ink:#0b1020; }
+}
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }

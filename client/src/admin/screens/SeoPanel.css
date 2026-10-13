@@ -1,0 +1,13 @@
+.seo { display: grid; gap: 1rem; font-size: .9rem; } .seo h3 { font-family: var(--np-font-ui); font-size: .95rem; margin-bottom: .4rem; }
+.seo__note { color: var(--np-ink-soft); font-size: .82rem; } .seo__problem { background: #fdf0ef; color: #7a1a14; padding: .6rem .8rem; border-radius: 4px; }
+.seo-count { font-weight: 400; color: var(--np-ink-soft); font-size: .78rem; margin-left: .4rem; } .seo-count.is-over { color: #b3261e; font-weight: 700; }
+.serp { padding: .8rem; border: 1px solid var(--np-rule); border-radius: 6px; background: #fff; font-family: Arial, sans-serif; } .serp__url { color: #1e6a2b; font-size: .8rem; overflow-wrap: anywhere; }
+.serp__title { color: #1a0dab; font-size: 1.15rem; line-height: 1.3; margin: .15rem 0; } .serp__desc { color: #4d5156; font-size: .85rem; }
+.social { border: 1px solid var(--np-rule); border-radius: 6px; overflow: hidden; background: #fff; } .social img { width: 100%; aspect-ratio: 1.91; object-fit: cover; }
+.social__none { aspect-ratio: 1.91; display: grid; place-items: center; background: #eef0f3; color: var(--np-ink-soft); font-size: .8rem; padding: 1rem; text-align: center; }
+.social__txt { display: grid; gap: .15rem; padding: .6rem .8rem; border-top: 1px solid var(--np-rule); } .social__txt small { color: var(--np-ink-soft); text-transform: lowercase; }
+.seo__chips { display: flex; flex-wrap: wrap; gap: .35rem; } .seo__chips li { padding: .15rem .6rem; background: #eef1fb; color: #1c3f9a; border-radius: 999px; font-size: .8rem; }
+.seo__sub { font-size: .8rem; color: var(--np-ink-soft); margin: .5rem 0 .25rem; }
+.seo__links { display: grid; gap: .6rem; } .seo__links li { display: grid; gap: .2rem; padding: .6rem; border: 1px solid var(--np-rule); border-radius: 4px; background: #fff; } .seo__links small { color: var(--np-ink-soft); }
+.seo__group { border: 1px solid var(--np-rule); border-radius: 4px; padding: .5rem .7rem; background: #fff; margin-top: .4rem; } .seo__group summary { cursor: pointer; font-weight: 600; } .seo__group ul { margin-top: .4rem; display: grid; gap: .3rem; padding-left: 1rem; list-style: disc; }
+.seo pre { overflow: auto; max-height: 18rem; font-size: .75rem; background: #f4f5f7; padding: .6rem; border-radius: 4px; } .seo__warn-slug { font-size: .8rem; color: #7a5200; margin-top: -.5rem; }

@@ -1,0 +1,2 @@
+.preview-bar { position: sticky; top: 0; z-index: 70; background: #fff4d6; color: #4a3600; border-bottom: 1px solid #ecd48a; padding: .6rem 1rem; font-size: .9rem; }
+.preview-bar a { color: #4a3600; font-weight: 600; margin-left: .5rem; }

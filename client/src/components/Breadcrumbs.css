@@ -1,0 +1,6 @@
+.crumbs { font-size: var(--np-step--1); color: var(--np-ink-soft); }
+.crumbs ol { display: flex; flex-wrap: wrap; gap: .25rem .35rem; align-items: center; }
+.crumbs li { display: inline-flex; align-items: center; gap: .35rem; min-width: 0; }
+.crumbs a { text-decoration: none; }
+.crumbs a:hover { color: var(--np-accent); text-decoration: underline; text-underline-offset: 3px; }
+.crumbs [aria-current] { color: var(--np-ink); max-width: 38ch; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }

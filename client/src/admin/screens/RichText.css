@@ -1,0 +1,9 @@
+.rte { background: #fff; border: 1px solid #b7bac2; border-radius: var(--np-radius); }
+.rte:focus-within { border-color: var(--np-accent); box-shadow: 0 0 0 2px color-mix(in srgb, var(--np-accent) 25%, transparent); }
+.rte__bar { display: flex; flex-wrap: wrap; gap: .25rem; align-items: center; padding: .4rem; border-bottom: 1px solid var(--np-rule); background: #f7f8fa; position: sticky; top: 0; z-index: 5; }
+.rte__btn { min-width: 2.25rem; min-height: 2.25rem; padding: 0 .5rem; border: 1px solid transparent; background: transparent; border-radius: 4px; font-size: .85rem; font-weight: 600; }
+.rte__btn:hover { background: #e9ebef; border-color: #cfd2d8; } .rte__sep { width: 1px; height: 1.4rem; background: var(--np-rule); margin-inline: .2rem; }
+.rte__body { min-height: 28rem; padding: 1.25rem 1.5rem; outline: none; font-size: 1.1rem; max-width: none; }
+.rte__body:empty::before { content: 'Start writing…'; color: #8a8f98; }
+.rte__body img { max-width: 100%; height: auto; } .rte__body figure { margin: 1rem 0; } .rte__body figcaption { font-size: .85rem; color: var(--np-ink-soft); }
+.rte__body table { display: table; width: 100%; } .rte__body td, .rte__body th { border: 1px dashed #ccd; }

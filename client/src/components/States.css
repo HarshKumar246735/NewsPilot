@@ -1,0 +1,6 @@
+.state { display: grid; justify-items: center; text-align: center; gap: .75rem; padding: clamp(2rem, 6vw, 4rem) 1rem; max-width: 36rem; margin-inline: auto; }
+.state svg { color: var(--np-ink-soft); }
+.state--error svg { color: var(--np-alert); }
+.state h2 { font-size: var(--np-step-2); }
+.state p { color: var(--np-ink-soft); }
+.state__actions { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: center; margin-top: .5rem; }

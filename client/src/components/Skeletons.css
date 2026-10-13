@@ -1,0 +1,8 @@
+.sk { display: block; background: linear-gradient(90deg, color-mix(in srgb, var(--np-ink) 7%, var(--np-paper)) 25%, color-mix(in srgb, var(--np-ink) 13%, var(--np-paper)) 50%, color-mix(in srgb, var(--np-ink) 7%, var(--np-paper)) 75%); background-size: 200% 100%; border-radius: 3px; }
+@media (prefers-reduced-motion: no-preference) { .sk { animation: shimmer 1.4s linear infinite; } }
+@keyframes shimmer { to { background-position: -200% 0; } }
+.sk--media { aspect-ratio: 16 / 10; width: 100%; }
+.sk-card { display: grid; gap: .6rem; align-content: start; }
+.sk-page { padding-block: 2rem; min-height: 60vh; }
+.sk-grid { display: grid; gap: 2rem 1.5rem; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); }
+.sk-article { display: grid; gap: .9rem; max-width: 46rem; margin-inline: auto; }

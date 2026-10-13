@@ -1,0 +1,7 @@
+.pager { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid var(--np-rule); }
+.pager__nums { display: none; gap: .25rem; align-items: center; }
+.pager__num, .pager__step { display: inline-flex; align-items: center; justify-content: center; gap: .25rem; min-width: 2.5rem; min-height: 2.5rem; padding-inline: .6rem; border-radius: var(--np-radius); text-decoration: none; font-weight: 600; font-size: var(--np-step--1); }
+.pager__step { border: 1px solid var(--np-rule); background: var(--np-surface); }
+.pager__num:hover, .pager__step:hover { border-color: var(--np-accent); color: var(--np-accent); }
+.pager__num.is-current { background: var(--np-ink); color: var(--np-paper); }
+@media (min-width: 40rem) { .pager__nums { display: flex; } }

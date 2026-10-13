@@ -1,0 +1,2 @@
+.section-header { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; border-top: 2px solid var(--np-ink); padding-top: .7rem; margin-bottom: 1.25rem; }
+.section-header__title { font-size: var(--np-step-2); }

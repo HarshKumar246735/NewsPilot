@@ -1,0 +1,8 @@
+.ranked .section-header__title { font-size: var(--np-step-1); }
+.ranked ol { display: grid; counter-reset: rank; }
+.ranked li { display: grid; grid-template-columns: 2.4rem 1fr; gap: .5rem; padding-block: .9rem; border-top: 1px solid var(--np-rule); align-items: start; }
+.ranked li:first-child { border-top: 0; padding-top: 0; }
+.ranked__n { font-family: var(--np-font-head); font-weight: 700; font-size: 2rem; line-height: 1; color: var(--np-accent); font-variant-numeric: lining-nums; }
+.ranked h3 { font-size: 1.02rem; line-height: 1.3; margin-top: .25rem; }
+.ranked h3 a { text-decoration: none; }
+.ranked h3 a:hover { text-decoration: underline; text-underline-offset: 3px; }

@@ -1,0 +1,13 @@
+.site-footer { background: var(--np-ink); color: #d9dade; }
+.site-footer a { text-decoration: none; }
+.site-footer a:hover { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+.site-footer .logo { color: #fff; }
+.site-footer .logo__mark { color: #fff; }
+.site-footer .logo__mark path:first-of-type { stroke: var(--np-ink); }
+.footer__grid { display: grid; gap: 2rem; padding-block: clamp(2rem, 5vw, 3.5rem); grid-template-columns: repeat(2, 1fr); }
+.footer__brand { grid-column: 1 / -1; display: grid; gap: .9rem; align-content: start; max-width: 28rem; font-size: var(--np-step--1); color: #aeb1b8; }
+.footer__h { font-family: var(--np-font-ui); font-size: var(--np-step--1); font-weight: 600; color: #fff; margin-bottom: .7rem; letter-spacing: 0; }
+.site-footer nav ul { display: grid; gap: .45rem; font-size: var(--np-step--1); }
+.footer__social { display: flex; flex-wrap: wrap; gap: .4rem 1.1rem; }
+.footer__base { border-top: 1px solid #343840; font-size: var(--np-step--1); color: #aeb1b8; padding-block: 1rem; }
+@media (min-width: 52rem) { .footer__grid { grid-template-columns: 1.6fr 1fr 1fr 1fr; } .footer__brand { grid-column: auto; } }

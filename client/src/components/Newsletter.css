@@ -1,0 +1,12 @@
+.newsletter { background: color-mix(in srgb, var(--np-accent) 7%, var(--np-paper)); border-block: 1px solid var(--np-rule); margin-top: clamp(2rem, 5vw, 4rem); }
+.newsletter__inner { display: grid; gap: 1.5rem; padding-block: clamp(1.75rem, 4vw, 3rem); }
+.newsletter__copy h2 { font-size: var(--np-step-2); }
+.newsletter__copy p { margin-top: .5rem; color: var(--np-ink-soft); max-width: 46ch; }
+.newsletter__form { display: grid; gap: .85rem; align-content: start; max-width: 30rem; }
+.newsletter__consent { display: flex; gap: .6rem; align-items: flex-start; font-size: var(--np-step--1); color: var(--np-ink-soft); }
+.newsletter__consent input { margin-top: .2rem; width: 1.1rem; height: 1.1rem; accent-color: var(--np-accent); flex: none; }
+.newsletter__consent a { color: var(--np-accent); }
+.newsletter__status { min-height: 1.4em; font-size: var(--np-step--1); color: var(--np-ink-soft); }
+.newsletter__status.is-error { color: var(--np-alert); font-weight: 600; }
+.newsletter__done { font-weight: 600; align-self: center; }
+@media (min-width: 52rem) { .newsletter__inner { grid-template-columns: 1fr 1fr; align-items: center; gap: 4rem; } }

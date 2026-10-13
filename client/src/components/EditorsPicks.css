@@ -1,0 +1,3 @@
+.picks { background: #181a1f; padding-block: clamp(1.75rem, 4vw, 3rem); margin-block: clamp(1.5rem, 4vw, 3rem); }
+.picks .section-header { border-top-color: #f2f2ee; }
+.picks__grid { display: grid; gap: 1.75rem; grid-template-columns: repeat(auto-fit, minmax(14.5rem, 1fr)); }

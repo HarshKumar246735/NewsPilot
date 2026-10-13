@@ -1,0 +1,9 @@
+.cat-section { padding-block: clamp(1.25rem, 3vw, 2rem); }
+.cat-section__grid { display: grid; gap: 1.75rem; }
+.cat-section__rest { display: grid; gap: 1.25rem; align-content: start; }
+.cat-section__rest .card { padding-top: 1.25rem; border-top: 1px solid var(--np-rule); }
+.cat-section__rest .card:first-child { padding-top: 0; border-top: 0; }
+@media (min-width: 52rem) {
+  .cat-section__grid { grid-template-columns: 1.4fr 1fr; gap: 2.5rem; }
+  .cat-section__rest { padding-left: 2.5rem; border-left: 1px solid var(--np-rule); }
+}

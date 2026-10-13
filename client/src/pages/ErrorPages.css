@@ -1,0 +1,4 @@
+.notfound { padding-block: clamp(2rem, 6vw, 4rem); display: grid; gap: 1rem; justify-items: start; max-width: 44rem; }
+.notfound__code { font-family: var(--np-font-head); font-weight: 700; font-size: clamp(4rem, 12vw, 8rem); line-height: 1; color: var(--np-accent); }
+.notfound__search { width: 100%; max-width: 32rem; }
+.notfound__home { margin-top: .5rem; }

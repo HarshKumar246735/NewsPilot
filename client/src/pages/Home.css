@@ -1,0 +1,11 @@
+.home-feed { display: grid; gap: 2.5rem; padding-block: clamp(1rem, 3vw, 2rem); }
+.home-feed__grid { display: grid; gap: 2rem 1.5rem; grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr)); }
+.home-feed__side { display: grid; gap: 2.25rem; align-content: start; }
+.home-guides { padding-block: clamp(1.25rem, 3vw, 2rem); }
+.home-guides__grid { display: grid; gap: 1.75rem; grid-template-columns: repeat(auto-fit, minmax(14.5rem, 1fr)); }
+@media (min-width: 64rem) {
+  .home-feed { grid-template-columns: minmax(0, 2.4fr) minmax(0, 1fr); gap: 3rem; }
+  .home-feed__grid { grid-template-columns: repeat(2, 1fr); }
+  .home-feed__side { padding-left: 2.5rem; border-left: 1px solid var(--np-rule); }
+}
+@media (min-width: 80rem) { .home-feed__grid { grid-template-columns: repeat(3, 1fr); } .home-feed { grid-template-columns: minmax(0, 3fr) minmax(0, 1fr); } }

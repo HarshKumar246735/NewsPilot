@@ -1,0 +1,5 @@
+.ad { margin-block: 1.5rem; padding-block: .5rem; border-block: 1px solid var(--np-rule); text-align: center; min-height: 6.5rem; }
+.ad__label { font-size: .75rem; color: var(--np-ink-soft); margin-bottom: .35rem; }
+.ad img { margin-inline: auto; max-width: 100%; height: auto; }
+.ad--article-sidebar { min-height: 15rem; }
+.ad--header { margin-block: .75rem; }

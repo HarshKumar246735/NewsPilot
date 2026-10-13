@@ -1,0 +1,6 @@
+.static { padding-block: clamp(1.25rem, 3vw, 2.25rem) 1rem; max-width: 48rem; }
+.static__head { display: grid; gap: .6rem; padding-bottom: 1.25rem; border-bottom: 2px solid var(--np-ink); margin-bottom: 1.5rem; }
+.static__updated { font-size: var(--np-step--1); color: var(--np-ink-soft); }
+.prose-lite { display: grid; gap: 1.75rem; line-height: 1.7; font-size: 1.05rem; }
+.prose-lite h2 { font-size: 1.45rem; margin-bottom: .5rem; }
+.prose-lite p + p { margin-top: .8rem; }

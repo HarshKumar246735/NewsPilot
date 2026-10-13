@@ -1,0 +1,5 @@
+.logo { display: inline-flex; align-items: center; gap: .6rem; text-decoration: none; color: var(--np-ink); }
+.logo__mark { width: 2.6rem; height: 2.6rem; flex: none; }
+.logo__word { font-family: var(--np-font-head); font-weight: 700; font-size: clamp(1.8rem, 1.4rem + 1.6vw, 2.6rem); letter-spacing: -0.03em; line-height: 1; }
+.logo--compact .logo__mark { width: 2rem; height: 2rem; }
+.logo--compact .logo__word { font-size: 1.4rem; }

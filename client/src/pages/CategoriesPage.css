@@ -1,0 +1,9 @@
+.directory { display: grid; gap: 2rem 2.5rem; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); }
+.directory__group { border-top: 1px solid var(--np-rule); padding-top: .9rem; display: grid; gap: .4rem; align-content: start; }
+.directory__group h2 { font-size: 1.4rem; }
+.directory__group h2 a { text-decoration: none; }
+.directory__group h2 a:hover { color: var(--np-accent); }
+.directory__group > p { font-size: var(--np-step--1); color: var(--np-ink-soft); }
+.directory__group ul { display: grid; gap: .1rem; margin-top: .35rem; }
+.directory__group li a { display: inline-block; padding: .25rem 0; text-decoration: none; color: var(--np-ink-soft); }
+.directory__group li a:hover { color: var(--np-accent); text-decoration: underline; text-underline-offset: 3px; }

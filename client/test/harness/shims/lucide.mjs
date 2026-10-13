@@ -1,0 +1,16 @@
+import { createElement } from 'react';
+const icon = (name) => (props) => createElement('svg', { 'data-icon': name, width: props.size || 24, height: props.size || 24, 'aria-hidden': props['aria-hidden'] });
+export const Search = icon('Search');
+export const Menu = icon('Menu');
+export const ChevronDown = icon('ChevronDown');
+export const ChevronRight = icon('ChevronRight');
+export const ChevronLeft = icon('ChevronLeft');
+export const X = icon('X');
+export const ArrowRight = icon('ArrowRight');
+export const ArrowLeft = icon('ArrowLeft');
+export const Link2 = icon('Link2');
+export const Mail = icon('Mail');
+export const Share2 = icon('Share2');
+export const Check = icon('Check');
+export const SearchX = icon('SearchX');
+export const TriangleAlert = icon('TriangleAlert');

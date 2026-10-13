@@ -1,0 +1,14 @@
+{
+  "name": "newspilot",
+  "private": true,
+  "version": "1.0.0",
+  "description": "NewsPilot: a server-rendered news publication with an admin dashboard and automatic SEO.",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:api": "npm --prefix server run dev",
+    "dev:web": "npm --prefix client run dev:api",
+    "dev:demo": "npm --prefix client run dev",
+    "test": "npm --prefix server test && npm --prefix client test",
+    "build": "npm --prefix client run build"
+  }
+}
